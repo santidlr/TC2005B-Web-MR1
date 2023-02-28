@@ -1,0 +1,100 @@
+* {
+    background-color: rgb(247, 245, 245);
+}
+
+h1 {
+    text-align: center;
+}
+
+#home-button a:link {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#home-button a:visited {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#home-button a:hover {
+    text-align: center;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+#home-button a:active {
+    text-align: center;
+    color: aqua;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: aquamarine;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 18px;
+    border: 7px solid aquamarine;
+    /* border-color: aquamarine; */
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+.nav li a {
+    background-color: aquamarine;
+}
+
+#squad {
+    display: block;
+    width: 896px;
+    height: 504px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#link-team {
+    text-align: center;
+}
+
+#link-twitch {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#tactics {
+    display: block;
+    width: 896px;
+    height: 504px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.normal-text {
+    text-align: center;
+}
+
+.fifa-logo {
+    display: block;
+    width: 200;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fifa-player {
+    display: block;
+    width: 100px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}

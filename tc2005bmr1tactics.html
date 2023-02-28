@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DLS Tactics</title>
+        <link rel = "stylesheet" href = "tc2005bminireto1.css"></link>
+        <script type = "text/javascript" src = "tc2005bminireto1.js"></script>
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#hide').hide();
+              $("#hide").click(function(){
+                $('#formacionphoto').hide();
+                $('#show').show();
+                $('#hide').hide();
+              });
+              $("#show").click(function(){
+                $('#formacionphoto').show();
+                $('#show').hide();
+                $('#hide').show();
+              });
+            });
+        </script>
+    </head>
+
+    <body>
+        <h1 id="home-button"><a href="tc2005bminireto1.html">DeLirious FC</a></h1>
+        <h2>The Tactics</h2>
+
+        <ul class="nav">
+            <li><a href="tc2005bmr1history.html">History</a></li>
+            <li><a href="tc2005bmr1tactics.html">Tactics</a></li>
+            <li><a href="tc2005bmr1meet-the-team.html">Team</a></li>
+        </ul>
+        
+        <br>
+
+        <button id="show" onclick="loadImage()">Show Formation</button>
+        <button id="hide">Hide Formation</button>
+
+
+        <!-- <img id="tactics" src="formacion.jpeg"> -->
+        <div id="tacticsdiv">
+            <img id="formacionphoto">
+        </div>
+
+        <p class="normal-text">Throughout seasons, the team's tactics have undergone a number of changes. 
+            At first, 4-2-3-1 was the preferred formation. However, our manager
+            deemed it was difficult to get the ball up to our striker for 
+            offensive play. That's why, currently, the team plays with a 
+            4-3-1-2 formation. A rather exotic choice, given the popularity 
+            of 4-3-2-1, but so far, this decision has impacted the team 
+            positively.
+        </p>
+
+        <img id="tactics" src="tactics.jpeg">
+
+        <footer>
+            <p id="link-twitch"><a href="https://www.twitch.tv/">Watch the team play live!</a></p>
+        </footer>
+    </body>
+</html>
